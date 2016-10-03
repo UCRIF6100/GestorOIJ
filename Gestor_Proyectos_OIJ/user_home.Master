@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user_home.master.cs" Inherits="Gestor_Proyectos_OIJ.user_home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/materialize.css" />
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- Adjuntamos los archivos JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Propuesta OIJ</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: azure">
+     <div class="navbar-fixed">
+         <nav>
+             <div class="nav-wrapper">
+                 <img class="brand-logo right col s12 m" src="../images/logo.png" style="width: 60px; height: 60px" />
+                 <ul id="nav-mobile" class="left hide-on-med-and-down">
+                     <li><a href="Solicitud_Proyecto.aspx">Solicitud</a></li>
+                     <li><a href="Acta_Constitucion_Proyecto.aspx">Acta</a></li>
+                     <li><a href="#">Informe</a></li>
+                     <li><a href="Mis_Proyectos.aspx">Mis proyectos</a></li>
+                 </ul>
+             </div>
+         </nav>
+    </div>
+
+    <asp:ContentPlaceHolder ID="mis_Proyectos" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="solicitud_Proyecto" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="actaConstitucion" runat="server"></asp:ContentPlaceHolder>
+
+</body>
+</html>
