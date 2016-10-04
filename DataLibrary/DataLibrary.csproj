@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\SGPDataAct.cs" />
+    <Compile Include="Data\SGPDataAdvanced.cs" />
+    <Compile Include="Data\SGPDataApprove.cs" />
+    <Compile Include="Data\SGPDataFinalEvaluation.cs" />
+    <Compile Include="Data\SGPDataInform.cs" />
     <Compile Include="Data\SGPDataOficine.cs" />
     <Compile Include="Data\SGPDataProject.cs" />
     <Compile Include="Data\SGPDataRequest.cs" />
