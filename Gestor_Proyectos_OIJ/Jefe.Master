@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user_home.master.cs" Inherits="Gestor_Proyectos_OIJ.user_home" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Jefe.Master.cs" Inherits="Gestor_Proyectos_OIJ.user_home" %>
 
 <!DOCTYPE html>
 

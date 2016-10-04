@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/user_home.Master" AutoEventWireup="true" CodeBehind="Avance_Proyecto.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Avance_Proyecto" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Jefe.Master" AutoEventWireup="true" CodeBehind="Avance_Proyecto.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Avance_Proyecto" %>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="Avance_Proyecto" runat="server">
 
@@ -85,9 +85,17 @@
                     <label for="fechaSolicitud" class="black-text" data-error="Formato incorrecto" data-success="Formato correcto">Fecha de solicitud</label>
                 </div>
 
+                <div class="file-field input-field col s6" style="margin-left:5%; width:40%">
+                    <div class="btn">
+                        <span>Archivo</span>
+                        <input type="file" multiple>
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text" placeholder="Subir un archivo">
+                    </div>
+                </div>
 
 
-               
             </div>
             <div class="input-field center-align">
                 <br />

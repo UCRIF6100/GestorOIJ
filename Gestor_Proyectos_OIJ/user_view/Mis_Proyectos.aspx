@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/user_home.Master" AutoEventWireup="true" CodeBehind="Mis_Proyectos.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Mis_Proyectos" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Jefe.Master" AutoEventWireup="true" CodeBehind="Mis_Proyectos.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Mis_Proyectos" %>
 
 <asp:Content ID="mis_Proyectos" ContentPlaceHolderID="mis_Proyectos" runat="server">
 

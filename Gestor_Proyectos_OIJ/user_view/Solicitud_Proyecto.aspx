@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/user_home.Master" AutoEventWireup="true" CodeBehind="Solicitud_Proyecto.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Solicitud_Proyecto" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Jefe.Master" AutoEventWireup="true" CodeBehind="Solicitud_Proyecto.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Solicitud_Proyecto" %>
 <asp:Content ID="solicitud_Proyecto" ContentPlaceHolderID="solicitud_Proyecto" runat="server">
 
     <h3 class="center">Solicitud de Proyecto</h3>

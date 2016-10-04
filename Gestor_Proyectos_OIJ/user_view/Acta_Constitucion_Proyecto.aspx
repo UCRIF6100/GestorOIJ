@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/user_home.Master" AutoEventWireup="true" CodeBehind="Acta_Constitucion_Proyecto.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Acta_Constitucion_Proyecto" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Jefe.Master" AutoEventWireup="true" CodeBehind="Acta_Constitucion_Proyecto.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Acta_Constitucion_Proyecto" %>
 <asp:Content ID="actaConstitucion" ContentPlaceHolderID="actaConstitucion" runat="server">
 
 

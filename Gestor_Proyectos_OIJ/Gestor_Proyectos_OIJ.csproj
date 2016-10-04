@@ -66,9 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="administrator_view\Inicio_Administrador.aspx" />
     <Content Include="packages.config" />
-    <Content Include="user_home.Master" />
+    <Content Include="Jefe.Master" />
     <Content Include="Login.Master" />
+    <Content Include="Administrator.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,6 +93,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrator.Master.cs">
+      <DependentUpon>Administrator.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrator.Master.designer.cs">
+      <DependentUpon>Administrator.Master</DependentUpon>
+    </Compile>
+    <Compile Include="administrator_view\Inicio_Administrador.aspx.cs">
+      <DependentUpon>Inicio_Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrator_view\Inicio_Administrador.aspx.designer.cs">
+      <DependentUpon>Inicio_Administrador.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.Master.cs">
       <DependentUpon>Login.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -99,12 +115,12 @@
       <DependentUpon>Login.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="user_home.Master.cs">
-      <DependentUpon>user_home.Master</DependentUpon>
+    <Compile Include="Jefe.Master.cs">
+      <DependentUpon>Jefe.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="user_home.Master.designer.cs">
-      <DependentUpon>user_home.Master</DependentUpon>
+    <Compile Include="Jefe.Master.designer.cs">
+      <DependentUpon>Jefe.Master</DependentUpon>
     </Compile>
     <Compile Include="user_view\Acta_Constitucion_Proyecto.aspx.cs">
       <DependentUpon>Acta_Constitucion_Proyecto.aspx</DependentUpon>
