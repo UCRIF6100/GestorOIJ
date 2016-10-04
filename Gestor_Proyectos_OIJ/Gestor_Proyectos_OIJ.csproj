@@ -84,6 +84,7 @@
     <Content Include="js\materialize.js" />
     <Content Include="js\materialize.min.js" />
     <Content Include="user_view\Acta_Constitucion_Proyecto.aspx" />
+    <Content Include="user_view\Avance_Proyecto.aspx" />
     <Content Include="user_view\Index.aspx" />
     <Content Include="user_view\Mis_Proyectos.aspx" />
     <Content Include="user_view\Solicitud_Proyecto.aspx" />
@@ -111,6 +112,13 @@
     </Compile>
     <Compile Include="user_view\Acta_Constitucion_Proyecto.aspx.designer.cs">
       <DependentUpon>Acta_Constitucion_Proyecto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user_view\Avance_Proyecto.aspx.cs">
+      <DependentUpon>Avance_Proyecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_view\Avance_Proyecto.aspx.designer.cs">
+      <DependentUpon>Avance_Proyecto.aspx</DependentUpon>
     </Compile>
     <Compile Include="user_view\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

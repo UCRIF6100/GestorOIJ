@@ -47,5 +47,14 @@ namespace Gestor_Proyectos_OIJ {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder actaConstitucion;
+        
+        /// <summary>
+        /// Avance_Proyecto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder Avance_Proyecto;
     }
 }

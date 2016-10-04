@@ -75,6 +75,10 @@
                     </div>
                 </div>
             </div>
+            <div class="input-field center-align">
+                <br />
+                <input class="waves-effect waves-light btn" type="submit" value="Enviar Solicitud" style="background: #31d4d4" />
+            </div>
 
         </form>
     </div>
