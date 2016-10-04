@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainLIbrary.Domain
 {
-    class SGPDomainAdvanced
+    public class SGPDomainAdvanced
     {
         public DateTime date { get; set; }
         public string work { get; set; }
@@ -15,7 +15,7 @@ namespace DomainLIbrary.Domain
 
         public SGPDomainAdvanced()
         {
-            this.date = new DateTime(0,0,0);
+            this.date = new DateTime(0, 0, 0);
             this.work = "";
             this.porcent = 0;
         }

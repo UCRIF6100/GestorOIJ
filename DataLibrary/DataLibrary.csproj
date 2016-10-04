@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A70A8E6A-1D54-4FBB-8CB9-A4423FCC363A}</ProjectGuid>
+    <ProjectGuid>{11D7EF7C-6C51-409D-8393-9B88AB401B74}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataLibrary</RootNamespace>
@@ -43,9 +43,10 @@
     <Compile Include="Data\SGPDataOficine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\DomainLIbrary\DomainLibrary.csproj">
-      <Project>{13e2eb08-1c5c-401a-a673-639c9b886ec2}</Project>
+    <ProjectReference Include="..\DomainLibrary\DomainLibrary.csproj">
+      <Project>{ec664c38-15f9-4eee-a9c9-65381bc33f3b}</Project>
       <Name>DomainLibrary</Name>
     </ProjectReference>
   </ItemGroup>

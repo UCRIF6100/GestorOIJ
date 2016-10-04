@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainLIbrary.Domain
 {
-    class SGPDomainAct
+    public class SGPDomainAct
     {
         public string leader { get; set; }
         public DateTime dateToElaborate { get; set; }
@@ -29,7 +29,7 @@ namespace DomainLIbrary.Domain
         public SGPDomainAct()
         {
             this.leader = "";
-            this.dateToElaborate = new DateTime(0,0,0);
+            this.dateToElaborate = new DateTime(0, 0, 0);
             this.dateEnd = new DateTime(0, 0, 0);
             this.dateStart = new DateTime(0, 0, 0);
             this.dateApprove = new DateTime(0, 0, 0);
@@ -44,6 +44,6 @@ namespace DomainLIbrary.Domain
             this.limits = "";
             this.observation = "";
             this.deliver = "";
-    }
+        }
     }
 }

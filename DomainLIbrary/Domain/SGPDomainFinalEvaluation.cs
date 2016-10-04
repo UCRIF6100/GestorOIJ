@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainLIbrary.Domain
 {
-    class SGPDomainFinalEvaluation
+    public class SGPDomainFinalEvaluation
     {
         public string name { get; set; }
         public DateTime date { get; set; }
@@ -33,3 +33,4 @@ namespace DomainLIbrary.Domain
 
     }
 }
+

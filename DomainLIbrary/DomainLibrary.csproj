@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13E2EB08-1C5C-401A-A673-639C9B886EC2}</ProjectGuid>
+    <ProjectGuid>{EC664C38-15F9-4EEE-A9C9-65381BC33F3B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DomainLIbrary</RootNamespace>
-    <AssemblyName>DomainLIbrary</AssemblyName>
+    <RootNamespace>DomainLibrary</RootNamespace>
+    <AssemblyName>DomainLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,16 +42,17 @@
   <ItemGroup>
     <Compile Include="Domain\SGPDomainAct.cs" />
     <Compile Include="Domain\SGPDomainAdvanced.cs" />
+    <Compile Include="Domain\SGPDomainApprove.cs" />
     <Compile Include="Domain\SGPDomainFinalEvaluation.cs" />
     <Compile Include="Domain\SGPDomainInform.cs" />
-    <Compile Include="Domain\SGPDomainProject.cs" />
-    <Compile Include="Domain\SGPDomainApprove.cs" />
     <Compile Include="Domain\SGPDomainOfficine.cs" />
+    <Compile Include="Domain\SGPDomainProject.cs" />
     <Compile Include="Domain\SGPDomainRequest.cs" />
     <Compile Include="Domain\SGPDomainSubApproveG.cs" />
     <Compile Include="Domain\SGPDomainUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

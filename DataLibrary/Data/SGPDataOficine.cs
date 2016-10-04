@@ -7,10 +7,9 @@ using System.Data;
 using System.Data.SqlClient;
 using DomainLIbrary.Domain;
 
-
 namespace DataLibrary.Data
 {
-   public class SGPDataOficine
+    public class SGPDataOficine
     {
         //atributos
         private string connectionString;
@@ -29,7 +28,7 @@ namespace DataLibrary.Data
             connection.Open();
             SqlCommand cmd = connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into OFICINA (id, name) values ('" + officine.id + "'," + officine.name +  "')";
+            cmd.CommandText = "insert into OFICINA (id, name) values ('" + officine.id + "'," + officine.name + "')";
             cmd.ExecuteNonQuery();
             connection.Close();
             return officine;
@@ -39,3 +38,4 @@ namespace DataLibrary.Data
 
     }
 }
+

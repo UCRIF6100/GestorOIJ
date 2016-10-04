@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DomainLIbrary.Domain
 {
-    class SGPDomainRequest
+    public class SGPDomainRequest
     {
         public int id { get; set; }
         public string employee { get; set; }
@@ -24,9 +25,9 @@ namespace DomainLIbrary.Domain
             this.employee = "";
             this.state = "";
             this.need = "";
-            this.dateRequest = new DateTime ( 0, 0, 0 );
+            this.dateRequest = new DateTime(0, 0, 0);
             this.dateConlusion = new DateTime(0, 0, 0);
-            this.ratified  = "";
+            this.ratified = "";
             this.impact = "";
         }
     }

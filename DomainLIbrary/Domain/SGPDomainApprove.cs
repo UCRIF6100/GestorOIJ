@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainLIbrary.Domain
 {
-    class SGPDomainApprove
+    public class SGPDomainApprove
     {
 
         public string profesional { get; set; }
@@ -18,7 +18,8 @@ namespace DomainLIbrary.Domain
         {
             this.profesional = "";
             this.numReference = "";
-            this.dateReceived = new DateTime(0,0,0);
+            this.dateReceived = new DateTime(0, 0, 0);
         }
     }
 }
+

@@ -145,6 +145,12 @@
   <ItemGroup>
     <Folder Include="font\roboto\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DomainLibrary\DomainLibrary.csproj">
+      <Project>{ec664c38-15f9-4eee-a9c9-65381bc33f3b}</Project>
+      <Name>DomainLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

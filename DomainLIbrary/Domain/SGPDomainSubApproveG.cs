@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainLIbrary.Domain
 {
-    class SGPDomainSubApproveG
+    public class SGPDomainSubApproveG
     {
         public string name { get; set; }
         public DateTime date { get; set; }
@@ -17,7 +17,7 @@ namespace DomainLIbrary.Domain
         public SGPDomainSubApproveG()
         {
             this.name = "";
-            this.date = new DateTime(0,0,0);
+            this.date = new DateTime(0, 0, 0);
             this.department = "";
             this.comment = "";
         }

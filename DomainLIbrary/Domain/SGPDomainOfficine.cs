@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DomainLIbrary.Domain
 {
-   public class SGPDomainOfficine
+    public class SGPDomainOfficine
     {
         public int id { get; set; }
         public string name { get; set; }
