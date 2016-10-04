@@ -31,7 +31,7 @@
                 <div class='row'>
                     <div class='input-field col s12'>
                         <input class='validate' type='password' name='password' id='password' />
-                        <label for='password'>ingrese su contraseña</label>
+                        <label for='password'>Ingrese su contraseña</label>
                     </div>
                     <label style='float: right;'>
                         <a class='pink-text' href='#!'><b>Olvidó su contraseña</b></a>
@@ -41,7 +41,7 @@
                 <br />
 
                 <div class='row'>
-                    <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Login</button>
+                    <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>iniciar Sesión</button>
                 </div>
 
 

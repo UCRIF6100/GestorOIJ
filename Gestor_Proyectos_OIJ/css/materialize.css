@@ -8494,3 +8494,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     background-color:#cc1a1a;
     transition:width .3s linear
 }
+
+#searchNav {
+    margin-left:20%;
+    width: 60%;
+    position:center  ;
+    border-radius:50px;
+   
+}
