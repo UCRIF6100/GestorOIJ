@@ -2,39 +2,69 @@
 
 <asp:Content ID="mis_Proyectos" ContentPlaceHolderID="mis_Proyectos" runat="server">
 
-    <br /><br />
+    <br />
+    <br />
     <div class="row">
         <div class="col s12">
             <div class="col s4">
                 <h5 class="center">Buscar Proyectos</h5>
-                <%-- Proyectos creados, meter en un for, recorrer y asignar --%>
-                <nav id="searchNav">
-                    <div class="nav-wrapper ">
-                        <form> 
-                            
-                            <div class="input-field center">
-                                <input id="search" type="search" required />
-                                <label for="search"><i class="material-icons">search</i></label>
-                                <i class="material-icons">close</i>
+                <form runat="server" action="Mis_Proyectos.aspx"> 
+                    <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">Name</i>Por nombre/acrónimo</div>
+                            <div class="collapsible-body">
+                                <br />
+                                <nav id="searchNav">
+                                    <div class="nav-wrapper ">
+                                        <div class="input-field center">
+                                            <input id="search" type="search" />
+                                            <label for="search"><i class="material-icons">search</i></label>
+                                            <i class="material-icons">close</i>
+                                        </div>
+                                    </div>
+                                </nav>
+                                <br />
                             </div>
-                            <br /> 
-                           
-                            <div class="input-field" style="background:#31d4d4; border-radius:50px">
-                                <i class="material-icons prefix">today</i>
-                                <input id="fechaInicio" type="date" class="datepicker" required/>
-                                <label for="fechaInicio" class="black-text" data-error="Formato incorrecto" data-success="Formato correcto"></label>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">today</i>Rango de fecha</div>
+                            <div class="collapsible-body center-align">
+                                <div class="nav-wrapper ">
+                                    <div class="input-field">  
+                                        <input id="fechaInicio" type="date" class="datepicker" style="width:50%"/>
+                                        <label for="fechaInicio" class="black-text" data-error="Formato incorrecto" data-success="Formato correcto"></label>
+                                    </div>
+                                </div>
                             </div>
-                        </form>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">payment</i>Costo</div>
+                            <div class="collapsible-body center-align">
+                                <div class="nav-wrapper ">
+                                    <div class="input-field center-align">
+                                        <input id="costo" type="number" style="width:50%"  />
+                                        <label for="fechaInicio" class="black-text" data-error="Formato incorrecto" data-success="Formato correcto"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="input-field center-align">
+                        <br />
+                        <input class="waves-effect waves-light btn" type="submit" value="Buscar" style="background: #31d4d4" />
                     </div>
-                </nav>
+                         
+                </form>
+                
             </div>
             <div class="col s8">
                 <br /><h5 class="center-align">Resultados Obtenidos</h5><br />
                 <ul class="collapsible" data-collapsible="expandable">
                     <li>
                         <div class="collapsible-header">
-                            <span class="badge red center">
-                                <i class="material-icons center-align">alarm_on</i>
+                            <span class="center">
+                                <i class="material-icons red">alarm_on</i>
                             </span><i class="material-icons">description</i>Proyecto 1
                         </div>
                         <div class="collapsible-body">
