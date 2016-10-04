@@ -146,6 +146,10 @@
     <Folder Include="font\roboto\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataLibrary\DataLibrary.csproj">
+      <Project>{11d7ef7c-6c51-409d-8393-9b88ab401b74}</Project>
+      <Name>DataLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DomainLibrary\DomainLibrary.csproj">
       <Project>{ec664c38-15f9-4eee-a9c9-65381bc33f3b}</Project>
       <Name>DomainLibrary</Name>

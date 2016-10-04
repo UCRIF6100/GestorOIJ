@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\SGPDataOficine.cs" />
+    <Compile Include="Data\SGPDataProject.cs" />
+    <Compile Include="Data\SGPDataRequest.cs" />
+    <Compile Include="Data\SGPDataSubApproveG.cs" />
+    <Compile Include="Data\SGPDataUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
