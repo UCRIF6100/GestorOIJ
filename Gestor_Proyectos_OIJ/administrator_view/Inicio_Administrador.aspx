@@ -9,8 +9,8 @@
             <div class="collapsible-header">
                 <form>
                     <i class="material-icons">filter_drama</i>Proyecto 1 
-                    <input type="button" value="Aceptar"  class=" waves-effect right" style="width:100px"/>
-                    <input type="button" value="Rechazar"  class=" waves-effect right" style="width:120px"/>
+                    <input type="button" value="Aceptar"  class="right" style="width:100px"/>
+                    <input type="button" value="Rechazar"  class="right" style="width:120px"/>
                 </form>
             </div>
             <div class="collapsible-body">
@@ -25,8 +25,8 @@
             <div class="collapsible-header">
                 <form>
                     <i class="material-icons">filter_drama</i>Proyecto 2
-                   <input type="button" value="Aceptar"  class=" waves-effect  right" style="width:100px"/>
-                    <input type="button" value="Rechazar"  class=" waves-effect right" style="width:120px"/>
+                   <input type="button" value="Aceptar"  class="right" style="width:100px"/>
+                    <input type="button" value="Rechazar"  class="right" style="width:120px"/>
                 </form>
             </div>
             <div class="collapsible-body">
@@ -41,8 +41,8 @@
             <div class="collapsible-header">
                 <form>
                     <i class="material-icons">filter_drama</i>Proyecto 3
-                    <input type="button" value="Aceptar"  class=" waves-effect  right" style="width:100px"/>
-                    <input type="button" value="Rechazar"  class=" waves-effect  right" style="width:120px"/>
+                   <input type="button" value="Aceptar"  class="right" style="width:100px"/>
+                    <input type="button" value="Rechazar"  class="right" style="width:120px"/>
                 </form>
             </div>
             <div class="collapsible-body">

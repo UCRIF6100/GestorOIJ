@@ -38,5 +38,14 @@ namespace Gestor_Proyectos_OIJ {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder verproyectos;
+        
+        /// <summary>
+        /// aceptacionFinal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder aceptacionFinal;
     }
 }
