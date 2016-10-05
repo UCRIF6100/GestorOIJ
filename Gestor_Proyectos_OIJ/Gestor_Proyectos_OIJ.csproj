@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="administrator_view\Inicio_Administrador.aspx" />
+    <Content Include="administrator_view\Ver_Proyectos.aspx" />
     <Content Include="packages.config" />
     <Content Include="Jefe.Master" />
     <Content Include="Login.Master" />
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="administrator_view\Inicio_Administrador.aspx.designer.cs">
       <DependentUpon>Inicio_Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrator_view\Ver_Proyectos.aspx.cs">
+      <DependentUpon>Ver_Proyectos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrator_view\Ver_Proyectos.aspx.designer.cs">
+      <DependentUpon>Ver_Proyectos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.Master.cs">
       <DependentUpon>Login.Master</DependentUpon>

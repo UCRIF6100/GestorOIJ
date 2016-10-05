@@ -31,30 +31,12 @@ namespace Gestor_Proyectos_OIJ {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder Inicio;
         
         /// <summary>
-        /// solicitud_Proyecto control.
+        /// verproyectos control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder solicitud_Proyecto;
-        
-        /// <summary>
-        /// actaConstitucion control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder actaConstitucion;
-        
-        /// <summary>
-        /// Avance_Proyecto control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder Avance_Proyecto;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder verproyectos;
     }
 }

@@ -29,21 +29,40 @@
              <div class="nav-wrapper">
                  <img class="brand-logo right col s12 m" src="../images/logo.png" style="width: 60px; height: 60px" />
                  <ul id="nav-mobile" class="left hide-on-med-and-down">
-                     <li><a href="Solicitud_Proyecto.aspx">Inicio</a></li>
-                     <li><a href="Solicitud_Proyecto.aspx">Acta</a></li>
-                     <li><a href="Avance_Proyecto.aspx">Aceptación Final</a></li>
-                     <li><a href="Mis_Proyectos.aspx">Ver proyectos</a></li>
-                     <li><a href="#">Reportes</a></li>
+                     <li><a href="Inicio_Administrador.aspx">Inicio</a></li>
+                     <li><a href="#">Aceptación Final</a></li>
+                     <li><a href="Ver_Proyectos.aspx">Ver proyectos</a></li>
+                     <%--<li><a href="#">Reportes</a></li>--%>
                  </ul>
              </div>
          </nav>
     </div>
 
     <asp:ContentPlaceHolder ID="Inicio" runat="server"></asp:ContentPlaceHolder>
-    <asp:ContentPlaceHolder ID="solicitud_Proyecto" runat="server"></asp:ContentPlaceHolder>
-    <asp:ContentPlaceHolder ID="actaConstitucion" runat="server"></asp:ContentPlaceHolder>
-    <asp:ContentPlaceHolder ID="Avance_Proyecto" runat="server"></asp:ContentPlaceHolder>
-    
+    <asp:ContentPlaceHolder ID="verproyectos" runat="server"></asp:ContentPlaceHolder>
+   
+
+     <br />
+    <!-- Adjuntamos los archivos JS -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+
+    <%-- funcionalidad de Collapsible --%>
+    <script>
+        $(document).ready(function () {
+            $('.collapsible').collapsible({
+                accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+            });
+
+            // para txt date 
+            $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 15 // Creates a dropdown of 15 years to control year
+            });
+        });
+
+        
+    </script>
 
 </body>
 </html>

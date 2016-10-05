@@ -1,8 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Jefe.Master" AutoEventWireup="true" CodeBehind="Mis_Proyectos.aspx.cs" Inherits="Gestor_Proyectos_OIJ.user_view.Mis_Proyectos" %>
-
-<asp:Content ID="mis_Proyectos" ContentPlaceHolderID="mis_Proyectos" runat="server">
-
-    <br />
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Administrator.Master" AutoEventWireup="true" CodeBehind="Ver_Proyectos.aspx.cs" Inherits="Gestor_Proyectos_OIJ.administrator_view.Ver_Proyectos" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="verProyectos" runat="server">
+  <br />
     <br />
     <div class="row">
         <div class="col s12">
@@ -48,7 +46,7 @@
                                 </div>
                             </div>
                         </li>
-                         <li>
+                        <li>
                             <div class="collapsible-header"><i class="material-icons">receipt</i>Generar reportes</div>
                             <div class="collapsible-body center-align">
                                 <div class="nav-wrapper ">
@@ -155,7 +153,7 @@
                     <li>
                         <div class="collapsible-header"><i class="material-icons">description</i>Proyecto 3</div>
                         <div class="collapsible-body">
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>...</p>
                         </div>
                     </li>
                 </ul>
@@ -166,31 +164,7 @@
 
 
 
-    <br />
-
-
-
-
-    <!-- Adjuntamos los archivos JS -->
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/materialize.min.js"></script>
-
-    <%-- funcionalidad de Collapsible --%>
-    <script>
-        $(document).ready(function () {
-            $('.collapsible').collapsible({
-                accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-            });
-
-            // para txt date 
-            $('.datepicker').pickadate({
-                selectMonths: true, // Creates a dropdown to control month
-                selectYears: 15 // Creates a dropdown of 15 years to control year
-            });
-        });
-
-        
-    </script>
+   
 
 
 </asp:Content>
