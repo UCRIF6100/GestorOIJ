@@ -49,7 +49,7 @@
 
                 </div>
             </div>
-            <a href="#!">Create account</a>
+            <a href="#!">Crear una cuenta</a>
 
 
             <div class="section"></div>

@@ -5,3 +5,10 @@ C:\Users\daylan\Desktop\GestorOIJ\DataLibrary\bin\Debug\DomainLibrary.pdb
 C:\Users\daylan\Desktop\GestorOIJ\DataLibrary\obj\Debug\DataLibrary.csprojResolveAssemblyReference.cache
 C:\Users\daylan\Desktop\GestorOIJ\DataLibrary\obj\Debug\DataLibrary.dll
 C:\Users\daylan\Desktop\GestorOIJ\DataLibrary\obj\Debug\DataLibrary.pdb
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\bin\Debug\DomainLibrary.dll
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\bin\Debug\DomainLibrary.pdb
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\obj\Debug\DataLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Jorman\Documents\GestorOIJ\DataLibrary\obj\Debug\DataLibrary.pdb

@@ -106,7 +106,6 @@
 
                 </div>
 
-                <h1>Preguntar fecha de aprovacion, comite del proyecto y grupo de trabajo</h1>
             </div>
 
         </form>
